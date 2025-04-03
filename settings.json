@@ -1,0 +1,46 @@
+### VSCode settings and config
+
+{
+    "chat.commandCenter.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "makefile.configureOnOpen": true,
+    "workbench.colorTheme": "Night Owl",
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "window.titleBarStyle": "custom",
+
+    "terminal.integrated.gpuAcceleration": "off",
+    "cSpell.userWords": [
+        "NONQUALIFYING"
+    ],
+
+    "cSpell.diagnosticLevel": "Hint",
+
+    "workbench.colorCustomizations": {
+
+        "terminal.background": "#00000000",
+
+        // will underline the entire word with dots in your chosen color
+        "editorHint.border": "#00ff66",
+
+        "editorHint.foreground": "#f000"
+    },
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.persistentSessionScrollback": 500,
+    "git.autofetch": true,
+    "git.ignoreRebaseWarning": true,
+    "python.testing.unittestArgs": [
+        "-vv",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestArgs": ["-vv", "."],
+    
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "vscode-pokemon.pokemonSize": "small"
+
+}
