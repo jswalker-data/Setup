@@ -1,0 +1,35 @@
+# // TODO: Split these into overall extensions and language specific like py, JS, rs
+
+
+autoDocstrings
+Code Runner
+CodeLLDB
+Dependi
+Django
+Error Lens
+Even Better TOML
+Excel Viewer
+GitHub Actions
+GitHub Copilot
+GitHub Copilot Chat
+indent-raindow
+IntelliCode
+JavaScript code snippets
+Jest
+Jinja
+Jupyter
+Jupyter cell tags
+Jupyter keymap
+Jupyter Notebook Renderer
+Jupyter Slide Show
+Live preview
+Material Icon Theme
+Night Owl
+Prettier
+Python (and all associated packages)
+Python indent
+Raindown CSV
+Ruff
+rust-analyzer
+TODO Highlight
+Todo Tree
