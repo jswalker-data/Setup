@@ -1,3 +1,5 @@
+[user[
+
 [alias]
     a = commit --amend
     allfiles = "!f() { git log --name-only --diff-filter=A --pretty=format: | sort -u; }; f"
@@ -9,7 +11,7 @@
     cob = checkout -b
     discard = reset HEAD --hard
     discardchunk = checkout -p 
-    nuke = !git reset --hard && fit clean -f -d
+    nuke = !git reset --hard && git clean -f -d
     l = "log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
     ll = "!f() { \
 		comparison_branch=$( \
