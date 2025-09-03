@@ -2,6 +2,7 @@
 
 [alias]
     a = commit --amend
+	acm = "!f() { git add . && git commit -m \"$*\"; }; f"
     allfiles = "!f() { git log --name-only --diff-filter=A --pretty=format: | sort -u; }; f"
     cfg = config --list
     changedfiles = "diff-tree --no-commit-id -r --name-only"
